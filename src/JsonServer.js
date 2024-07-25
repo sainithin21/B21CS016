@@ -22,6 +22,8 @@ const JsonServer = () => {
           </div>
         );
       })}
+
+     <h2 style={{color:"green"}}>After typing the npm start, please use this command "json-server --watch db.json --port 3031" to fetch the data from db.json file</h2>
     </div>
   );
 };
